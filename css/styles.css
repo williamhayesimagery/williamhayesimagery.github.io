@@ -27,6 +27,7 @@ a:hover {
 header {
   padding: 0 10px;
   overflow: hidden;
+  text-align: right;
 }
 h1 {
   margin: 0;
