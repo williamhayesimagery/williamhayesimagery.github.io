@@ -1,5 +1,5 @@
 body {
-  font: 16px/1.5 avant garde, sans-serif;
+  font: 14px/1.5 Cambria, Georgia, serif;
   background: black;
   color: #ffffff; /*body text #ffffff = white, #000000 = black */
   padding: 0;
@@ -22,7 +22,7 @@ a:hover {
 #main {
   width: 960px;
   margin: 0 auto;
-  background: rgba(255, 255, 255, 1);
+  background: rgba(0, 0, 0, 0); /*transparent*/
 }
 header {
   padding: 0 10px;
@@ -32,6 +32,10 @@ header {
 h1 {
   margin: 0;
 }
+
+h2 {              /*added*/
+  margin: 0;
+  }
  
 nav ul, ul.entries {
   list-style-type: none;
