@@ -1,0 +1,74 @@
+body {
+  font: 16px/1.5 arial, sans-serif;
+  background: white;
+  color: #000000; /*body text*/
+  padding: 0;
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+a { 
+  color: #000000; /*linktext color*/
+  text-decoration: none;
+}
+ 
+a:hover {  
+  color: #ffffff; /*color when you hover over links*/
+  text-decoration: underline;
+}
+ 
+#main {
+  width: 960px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 1);
+}
+header {
+  padding: 0 10px;
+  overflow: hidden;
+}
+h1 {
+  margin: 0;
+}
+ 
+nav ul, ul.entries {
+  list-style-type: none;
+}
+nav li a {
+  float: left;
+  margin: 5px; 
+}
+.content {
+  padding: 10px;
+}
+ 
+ul.entries li {
+  position: relative;
+  margin: 20px auto;
+  padding: 20px;
+  background: #ccd1d1; /*frame color of portfolio list */
+  width: 600px;
+}
+ 
+ul.entries img {
+  width: 600px;
+}
+ 
+ul.entries li h3 {
+  position: absolute;
+  bottom: -18px;
+  left: 17px;
+  font-size: 2em;
+}
+ul.entries a {
+  color: #ccd1d1; /*color of links in portfolio*/
+}
+ul.entries a:hover {
+  color: #fff;  /* when you hover over portfolio links */
+}
+ 
+footer {
+  font-size: 0.65em;
+  text-align: center;
+}
