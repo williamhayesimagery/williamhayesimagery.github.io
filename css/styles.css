@@ -16,7 +16,7 @@ a {
  
 a:hover {  
   color: #000000; /*color when you hover over links*/
-  text-decoration: underline;
+  text-decoration: none;
 }
  
 #main {
