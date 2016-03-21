@@ -58,7 +58,7 @@ ul.entries li {
 }
  
 ul.entries img {
-  height: 600px;   /*height or width = 600? */
+  width: 400px;   /*height or width? */
   }
  
 ul.entries li h3 {
