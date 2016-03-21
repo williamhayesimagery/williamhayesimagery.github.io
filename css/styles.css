@@ -10,19 +10,19 @@ ul {
   padding: 0;
 }
 a { 
-  color: #ffffff; <!--linktext color-->
+  color: #ffffff; /*linktext color*/
   text-decoration: none;
 }
  
 a:hover {  
-  color: #000000; <!--color when you hover over links -->
+  color: #000000; /*color when you hover over links*/
   text-decoration: underline;
 }
  
 #main {
   width: 960px;
   margin: 0 auto;
-  background: rgba(0, 0, 0, 0); <!--transparent-->
+  background: rgba(0, 0, 0, 0); /*transparent*/
 }
 header {
   padding: 0 10px;
@@ -34,7 +34,7 @@ h1 {
   text-align: right;
 }
 
-h2 {              <!--added-->
+h2 {              /*added*/
   margin: 0;
   }
  
@@ -53,13 +53,13 @@ ul.entries li {
   position: relative;
   margin: 20px auto;
   padding: 20px;
-  background: #ccd1d1; <!--frame color of portfolio list -->
+  background: #ccd1d1; /*frame col of portfolio list */
   width: 600px;
 }
  
 ul.entries img {
-  width: 600px;
-}
+  height: 600px;   /*height or width = 600? */
+  }
  
 ul.entries li h3 {
   position: absolute;
@@ -68,10 +68,10 @@ ul.entries li h3 {
   font-size: 2em;
 }
 ul.entries a {
-  color: #ccd1d1; <!--color of links in portfolio-->
+  color: #ccd1d1; /*--color of links in portfolio*/
 }
 ul.entries a:hover {
-  color: #fff;  <!-- when you hover over portfolio links -->
+  color: #fff;  /* when you hover over portfolio links */
 }
  
 footer {
