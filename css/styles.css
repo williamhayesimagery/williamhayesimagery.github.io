@@ -34,10 +34,7 @@ h1 {
   text-align: right;
 }
 
-h2 {              /*added*/
-  margin: 0;
-  }
- 
+
 nav ul, ul.entries {
   list-style-type: none;
 }
